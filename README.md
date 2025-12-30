@@ -10,7 +10,6 @@ A sophisticated multi-agent customer support automation system built with CrewAI
 
 - [Overview](#overview)
 - [Features](#features)
-- [Architecture](#architecture)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Usage](#usage)
@@ -57,36 +56,7 @@ The system is designed to:
 - Long-term memory for learning from past interactions
 - Entity memory for tracking customer information
 
-## 🏗️ Architecture
 
-```mermaid
-graph TB
-    subgraph "Customer Support Crew"
-        A[Customer Inquiry] --> B[Senior Support Representative]
-        B --> C[Documentation Scraper]
-        C --> D[Knowledge Base]
-        D --> B
-        B --> E[Draft Response]
-        E --> F[QA Specialist]
-        F --> G{Quality Check}
-        G -->|Needs Improvement| B
-        G -->|Approved| H[Final Response]
-    end
-    
-    subgraph "Memory System"
-        I[Short-term Memory]
-        J[Long-term Memory]
-        K[Entity Memory]
-    end
-    
-    B -.-> I
-    F -.-> J
-    B -.-> K
-    
-    style B fill:#4CAF50
-    style F fill:#2196F3
-    style H fill:#FF9800
-```
 
 ## 🚀 Installation
 
