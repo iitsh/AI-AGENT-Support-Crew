@@ -12,7 +12,6 @@ A sophisticated multi-agent customer support automation system built with CrewAI
 - [Features](#features)
 - [Installation](#installation)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
 - [Example Output](#example-output)
@@ -118,36 +117,7 @@ The system uses two agents with the following configuration:
 - **Delegation**: Can delegate back to support agent
 - **Verbose**: Enabled for detailed logging
 
-## 📖 Usage
 
-### Running the Jupyter Notebook
-
-```bash
-jupyter notebook customer_support_automation.ipynb
-```
-
-### Programmatic Usage
-
-```python
-from crewai import Agent, Task, Crew
-from utils import get_openai_api_key
-import os
-
-# Set up environment
-openai_api_key = get_openai_api_key()
-os.environ["OPENAI_MODEL_NAME"] = 'gpt-4o-mini'
-
-# Define your inquiry
-inputs = {
-    "customer": "YourCompany",
-    "person": "John Doe",
-    "inquiry": "I need help with setting up a Crew and kicking it off..."
-}
-
-# Run the crew
-result = crew.kickoff(inputs=inputs)
-print(result.raw)
-```
 
 ## 📁 Project Structure
 
