@@ -6,7 +6,7 @@ A sophisticated multi-agent customer support automation system built with CrewAI
 ![CrewAI](https://img.shields.io/badge/CrewAI-0.28.8-green.svg)
 ![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o--mini-orange.svg)
 
-## 📋 Table of Contents
+## 📋 Table of Contents 
 
 - [Overview](#overview)
 - [Features](#features)
