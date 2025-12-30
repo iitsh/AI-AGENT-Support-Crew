@@ -249,26 +249,17 @@ graph LR
     E --> F[Continuous Improvement]
 ```
 
-## 🔮 Future Enhancements
 
-- [ ] Multi-language support
-- [ ] Integration with ticketing systems (Zendesk, Jira)
-- [ ] Advanced analytics dashboard
-- [ ] Voice-based customer support
-- [ ] Integration with CRM systems
-- [ ] Automated ticket categorization
-- [ ] Sentiment analysis for customer feedback
 
 
 ## 🙏 Acknowledgments
 
 - [CrewAI](https://crewai.com) - Multi-agent framework
 - [OpenAI](https://openai.com) - Language models
-- [LangChain](https://langchain.com) - LLM application framework
 
 ## 📧 Contact
 
-Project Link: [https://github.com/iitsh/AI-AGENT-Support-Crew](https://github.com/iitsh/AI-AGENT-Support-Crew)
+Email : rayane06berrada@gmail.com
 
 ---
 
@@ -276,6 +267,6 @@ Project Link: [https://github.com/iitsh/AI-AGENT-Support-Crew](https://github.co
 
 **⭐ Star this repository if you find it helpful!**
 
-Made with ❤️ by the AI Agent Support Crew Team
+Made with ❤️
 
 </div>
