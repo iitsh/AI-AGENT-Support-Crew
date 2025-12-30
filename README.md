@@ -15,7 +15,6 @@ A sophisticated multi-agent customer support automation system built with CrewAI
 - [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
 - [Example Output](#example-output)
-- [Contributing](#contributing)
 
 ## 🎯 Overview
 
@@ -236,22 +235,6 @@ The system learns and improves:
 - Builds knowledge about customers
 - Improves over time with each interaction
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Development Guidelines
-
-- Follow PEP 8 style guidelines
-- Add tests for new features
-- Update documentation as needed
-- Ensure all tests pass before submitting PR
 
 ## 📊 Performance Metrics
 
